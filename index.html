@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cosmic Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load break_eternity first so it is available to your game script -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Cosmic Energy: <span id="energy-display">0</span></h1>
+        <button id="click-btn">Gather Energy</button>
+        
+        <div class="upgrades">
+            <button id="generator-btn">Buy Generator (Cost: 10)</button>
+            <p>Generators: <span id="generators-display">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
